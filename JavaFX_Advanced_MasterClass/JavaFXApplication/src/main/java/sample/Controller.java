@@ -44,7 +44,7 @@ public class Controller {
     @FXML
     public void handleClick() {
         FileChooser chooser = new FileChooser();
-        chooser.setTitle("Sve Application File");
+        chooser.setTitle("Save Application File");
         chooser.getExtensionFilters().addAll(
                 new FileChooser.ExtensionFilter("Zip", "*.zip"),
                 new FileChooser.ExtensionFilter("PDF", "*.pdf"),
