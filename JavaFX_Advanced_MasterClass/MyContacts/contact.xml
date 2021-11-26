@@ -16,12 +16,12 @@
 	<first_name>Louise</first_name>
 	<last_name>Richter</last_name>
 	<phone_number>1920</phone_number>
-	<notes></notes>
+	<notes>Some notes</notes>
 </contact>
 <contact>
 	<first_name>Jack</first_name>
-	<last_name>Brown</last_name>
-	<phone_number>5623</phone_number>
-	<notes>more notes</notes>
+	<last_name>Smith</last_name>
+	<phone_number>1052</phone_number>
+	<notes>Few notes</notes>
 </contact>
 </contacts>

@@ -56,43 +56,43 @@ public class Controller {
         }
     }
 
-//    @FXML
-//    public void showEditContactDialog() {
-//        Contact selectedContact = contactsTable.getSelectionModel().getSelectedItem();
-//        if(selectedContact == null) {
-//            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-//            alert.setTitle("No Contact Selected");
-//            alert.setHeaderText(null);
-//            alert.setContentText("Please select the contact you want to edit.");
-//            alert.showAndWait();
-//            return;
-//        }
-//
-//        Dialog<ButtonType> dialog = new Dialog<>();
-//        dialog.initOwner(mainPanel.getScene().getWindow());
-//        dialog.setTitle("Edit Contact");
-//        FXMLLoader fxmlLoader = new FXMLLoader();
-//        fxmlLoader.setLocation(getClass().getResource("contactdialog.fxml"));
-//        try {
-//            dialog.getDialogPane().setContent(fxmlLoader.load());
-//        } catch (IOException e) {
-//            System.out.println("Couldn't load the dialog");
-//            e.printStackTrace();
-//            return;
-//        }
+    @FXML
+    public void showEditContactDialog() {
+        Contact selectedContact = contactsTable.getSelectionModel().getSelectedItem();
+        if (selectedContact == null) {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("No Contact Selected");
+            alert.setHeaderText(null);
+            alert.setContentText("Please select the contact you want to edit.");
+            alert.showAndWait();
+            return;
+        }
 
-//        dialog.getDialogPane().getButtonTypes().add(ButtonType.OK);
-//        dialog.getDialogPane().getButtonTypes().add(ButtonType.CANCEL);
+        Dialog<ButtonType> dialog = new Dialog<>();
+        dialog.initOwner(mainPanel.getScene().getWindow());
+        dialog.setTitle("Edit Contact");
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("contactdialog.fxml"));
+        try {
+            dialog.getDialogPane().setContent(fxmlLoader.load());
+        } catch (IOException e) {
+            System.out.println("Couldn't load the dialog");
+            e.printStackTrace();
+            return;
+        }
 
-//        ContactController contactController = fxmlLoader.getController();
-//        contactController.editContact(selectedContact);
+        dialog.getDialogPane().getButtonTypes().add(ButtonType.OK);
+        dialog.getDialogPane().getButtonTypes().add(ButtonType.CANCEL);
 
-//        Optional<ButtonType> result = dialog.showAndWait();
-//        if(result.isPresent() && result.get() == ButtonType.OK) {
-//            contactController.updateContact(selectedContact);
-//            data.saveContacts();
-//        }
-//    }
+        ContactController contactController = fxmlLoader.getController();
+        contactController.editContact(selectedContact);
+
+        Optional<ButtonType> result = dialog.showAndWait();
+        if(result.isPresent() && result.get() == ButtonType.OK) {
+            contactController.updateContact(selectedContact);
+            data.saveContacts();
+        }
+    }
 
 //    public void deleteContact() {
 //        Contact selectedContact = contactsTable.getSelectionModel().getSelectedItem();
@@ -118,4 +118,4 @@ public class Controller {
 //        }
 //    }
 
-}
+    }
