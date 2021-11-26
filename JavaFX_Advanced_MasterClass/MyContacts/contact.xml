@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Lesedi</first_name>
+	<last_name>Tumi</last_name>
+	<phone_number>1254</phone_number>
+	<notes>my notes</notes>
+</contact>
+<contact>
+	<first_name>Brain</first_name>
+	<last_name>Adams</last_name>
+	<phone_number>5678</phone_number>
+	<notes>notes</notes>
+</contact>
+<contact>
+	<first_name>Louise</first_name>
+	<last_name>Richter</last_name>
+	<phone_number>1920</phone_number>
+	<notes></notes>
+</contact>
+<contact>
+	<first_name>Jack</first_name>
+	<last_name>Brown</last_name>
+	<phone_number>5623</phone_number>
+	<notes>more notes</notes>
+</contact>
+</contacts>

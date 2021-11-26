@@ -17,16 +17,16 @@ public class Controller {
     @FXML
     private BorderPane mainPanel;
 
-//    @FXML
-//    private TableView<Contact> contactsTable;
+    @FXML
+    private TableView<Contact> contactsTable;
 
-//    private ContactData data;
+    private ContactData data;
 
-//    public void initialize() {
-//        data = new ContactData();
-//        data.loadContacts();
-//        contactsTable.setItems(data.getContacts());
-//    }
+    public void initialize() {
+        data = new ContactData();
+        data.loadContacts();
+        contactsTable.setItems(data.getContacts());
+    }
 
     @FXML
     public void showAddContactDialog() {
@@ -49,10 +49,10 @@ public class Controller {
 
         Optional<ButtonType> result = dialog.showAndWait();
         if(result.isPresent() && result.get() == ButtonType.OK) {
-//            ContactController contactController = fxmlLoader.getController();
-//            Contact newContact = contactController.getNewContact();
-//            data.addContact(newContact);
-//            data.saveContacts();
+            ContactController contactController = fxmlLoader.getController();
+            Contact newContact = contactController.getNewContact();
+            data.addContact(newContact);
+            data.saveContacts();
         }
     }
 
