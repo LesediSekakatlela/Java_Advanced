@@ -43,6 +43,9 @@ public class SoccerDemo {
             }
 
             // update the scoreboard
+            if (iscore1 > iscore2) {
+                scoreboard.put(team1, scoreboard.get(team1) + 3);
+            }
 
             System.out.println(scoreboard);
         }
