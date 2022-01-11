@@ -106,15 +106,7 @@
       <change beforePath="$PROJECT_DIR$/../JavaFX11/Layouts/target/classes/lesedi/layouts/layout.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaFX11/Layouts/target/classes/module-info.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SoccerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SoccerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lesedi/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lesedi/results.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lesedi/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lesedi/results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +133,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SoccerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SoccerDemo" />
+      <module name="SoccerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SoccerDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
