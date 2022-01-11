@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class SoccerDemo {
@@ -15,6 +16,21 @@ public class SoccerDemo {
             sc = new Scanner(file);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+        }
+        //    HashMap scoreboard = new HashMap();
+        HashMap<String, Integer> scoreboard = new HashMap<String, Integer>();
+
+        while (sc.hasNextLine()) {
+            match = sc.nextLine(); // read one line into match variable
+            sides = match.split(",");  // split this line on a comma
+
+            l1 = sides[0].split(" ");
+            team1 = l1[0];
+            iscore1 = Integer.parseInt(l1[1]);  // skakel om na n integer
+
+            l2 = sides[1].split(" ");
+            team2 = l2[0];
+            iscore2 = Integer.parseInt(l2[1]);
         }
     }
 }
