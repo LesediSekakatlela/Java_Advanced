@@ -26,7 +26,7 @@ public class SoccerDemo {
 
             l1 = sides[0].split(" ");
             team1 = l1[0];
-            iscore1 = Integer.parseInt(l1[1]);  // skakel om na n integer
+            iscore1 = Integer.parseInt(l1[1]);  // changing a String to a integer
 
             l2 = sides[1].split(" ");
             team2 = l2[0];
