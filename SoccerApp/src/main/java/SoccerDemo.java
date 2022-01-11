@@ -49,6 +49,7 @@ public class SoccerDemo {
                 scoreboard.put(team2, scoreboard.get(team2) + 3);
             } else {// draw add 1 to each
                 scoreboard.put(team1, scoreboard.get(team1) + 1);
+                scoreboard.put(team2, scoreboard.get(team2) + 1);
             }
 
             System.out.println(scoreboard);
