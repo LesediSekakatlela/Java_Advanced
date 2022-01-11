@@ -31,6 +31,16 @@ public class SoccerDemo {
             l2 = sides[1].split(" ");
             team2 = l2[0];
             iscore2 = Integer.parseInt(l2[1]);
+
+            // do the teams exist in the scoreboard yet?
+
+            if (!scoreboard.containsKey(team1)) { // if the team does not exist in the scoreboard, add it with a zero total
+                scoreboard.put(team1, 0); // Team's first match - so  league score
+            }
+
+            if (!scoreboard.containsKey(team2)) { // if the team already exists
+                scoreboard.put(team2, 0); // Team's first match - so  league score
+            }
         }
     }
 }
