@@ -41,6 +41,10 @@ public class SoccerDemo {
             if (!scoreboard.containsKey(team2)) { // if the team already exists
                 scoreboard.put(team2, 0); // Team's first match - so  league score
             }
+
+            // update the scoreboard
+
+            System.out.println(scoreboard);
         }
     }
 }
