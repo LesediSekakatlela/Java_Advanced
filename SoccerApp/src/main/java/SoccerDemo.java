@@ -1,4 +1,5 @@
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class SoccerDemo {
@@ -8,5 +9,12 @@ public class SoccerDemo {
         Scanner sc = null;
         String match, team1, team2;
         Integer iscore1, iscore2;
+
+        String[] sides, l1, l2;
+        try {
+            sc = new Scanner(file);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }
