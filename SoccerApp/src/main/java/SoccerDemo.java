@@ -45,8 +45,10 @@ public class SoccerDemo {
             // update the scoreboard
             if (iscore1 > iscore2) { //add 3 points to the winning team
                 scoreboard.put(team1, scoreboard.get(team1) + 3);
-            } else if ((iscore2 > iscore1)) { 
+            } else if ((iscore2 > iscore1)) { // * the same
                 scoreboard.put(team2, scoreboard.get(team2) + 3);
+            } else {// draw add 1 to each
+                scoreboard.put(team1, scoreboard.get(team1) + 1);
             }
 
             System.out.println(scoreboard);
