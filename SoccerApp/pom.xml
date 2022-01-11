@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.Lesedi</groupId>
+    <groupId>com.example</groupId>
     <artifactId>SoccerApp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>SoccerApp</name>
@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.lesedi.soccerapp/com.lesedi.HelloApplication</mainClass>
+                            <mainClass>com.example.soccerapp/com.example.HelloApplication</mainClass>
                         </configuration>
                     </execution>
                 </executions>
